@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0AEE9111A2E5EEC00DBC10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9101A2E5EEC00DBC10B /* AppDelegate.swift */; };
+		F0AEE9131A2E5EEC00DBC10B /* XMCTiinyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9121A2E5EEC00DBC10B /* XMCTiinyViewController.swift */; };
+		F0AEE9161A2E5EEC00DBC10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AEE9141A2E5EEC00DBC10B /* Main.storyboard */; };
+		F0AEE9181A2E5EEC00DBC10B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AEE9171A2E5EEC00DBC10B /* Images.xcassets */; };
+		F0AEE9271A2E5EEC00DBC10B /* dojo_parse_tiinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9261A2E5EEC00DBC10B /* dojo_parse_tiinyTests.swift */; };
+		F0AEE9311A2E5F4E00DBC10B /* LaunchScreen_rank_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AEE9301A2E5F4E00DBC10B /* LaunchScreen_rank_3.xib */; };
+		F0AEE9331A2E5F6C00DBC10B /* XMCCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9321A2E5F6C00DBC10B /* XMCCamera.swift */; };
+		F0AEE9351A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9341A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift */; };
+		F0AEE9371A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9361A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0AEE9211A2E5EEC00DBC10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0AEE9031A2E5EEC00DBC10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AEE90A1A2E5EEC00DBC10B;
+			remoteInfo = "dojo-parse-tiiny";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0AEE90B1A2E5EEC00DBC10B /* dojo-parse-tiiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-parse-tiiny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AEE90F1A2E5EEC00DBC10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AEE9101A2E5EEC00DBC10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0AEE9121A2E5EEC00DBC10B /* XMCTiinyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCTiinyViewController.swift; sourceTree = "<group>"; };
+		F0AEE9151A2E5EEC00DBC10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0AEE9171A2E5EEC00DBC10B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0AEE9201A2E5EEC00DBC10B /* dojo-parse-tiinyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-parse-tiinyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AEE9251A2E5EEC00DBC10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AEE9261A2E5EEC00DBC10B /* dojo_parse_tiinyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_parse_tiinyTests.swift; sourceTree = "<group>"; };
+		F0AEE9301A2E5F4E00DBC10B /* LaunchScreen_rank_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_rank_3.xib; sourceTree = "<group>"; };
+		F0AEE9321A2E5F6C00DBC10B /* XMCCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCCamera.swift; sourceTree = "<group>"; };
+		F0AEE9341A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCCameraCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0AEE9361A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0AEE9081A2E5EEC00DBC10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AEE91D1A2E5EEC00DBC10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0AEE9021A2E5EEC00DBC10B = {
+			isa = PBXGroup;
+			children = (
+				F0AEE90D1A2E5EEC00DBC10B /* dojo-parse-tiiny */,
+				F0AEE9231A2E5EEC00DBC10B /* dojo-parse-tiinyTests */,
+				F0AEE90C1A2E5EEC00DBC10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0AEE90C1A2E5EEC00DBC10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEE90B1A2E5EEC00DBC10B /* dojo-parse-tiiny.app */,
+				F0AEE9201A2E5EEC00DBC10B /* dojo-parse-tiinyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0AEE90D1A2E5EEC00DBC10B /* dojo-parse-tiiny */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEE9101A2E5EEC00DBC10B /* AppDelegate.swift */,
+				F0AEE9121A2E5EEC00DBC10B /* XMCTiinyViewController.swift */,
+				F0AEE9321A2E5F6C00DBC10B /* XMCCamera.swift */,
+				F0AEE9341A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift */,
+				F0AEE9361A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift */,
+				F0AEE9141A2E5EEC00DBC10B /* Main.storyboard */,
+				F0AEE9171A2E5EEC00DBC10B /* Images.xcassets */,
+				F0AEE9301A2E5F4E00DBC10B /* LaunchScreen_rank_3.xib */,
+				F0AEE90E1A2E5EEC00DBC10B /* Supporting Files */,
+			);
+			path = "dojo-parse-tiiny";
+			sourceTree = "<group>";
+		};
+		F0AEE90E1A2E5EEC00DBC10B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEE90F1A2E5EEC00DBC10B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0AEE9231A2E5EEC00DBC10B /* dojo-parse-tiinyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEE9261A2E5EEC00DBC10B /* dojo_parse_tiinyTests.swift */,
+				F0AEE9241A2E5EEC00DBC10B /* Supporting Files */,
+			);
+			path = "dojo-parse-tiinyTests";
+			sourceTree = "<group>";
+		};
+		F0AEE9241A2E5EEC00DBC10B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEE9251A2E5EEC00DBC10B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0AEE90A1A2E5EEC00DBC10B /* dojo-parse-tiiny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AEE92A1A2E5EEC00DBC10B /* Build configuration list for PBXNativeTarget "dojo-parse-tiiny" */;
+			buildPhases = (
+				F0AEE9071A2E5EEC00DBC10B /* Sources */,
+				F0AEE9081A2E5EEC00DBC10B /* Frameworks */,
+				F0AEE9091A2E5EEC00DBC10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-parse-tiiny";
+			productName = "dojo-parse-tiiny";
+			productReference = F0AEE90B1A2E5EEC00DBC10B /* dojo-parse-tiiny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0AEE91F1A2E5EEC00DBC10B /* dojo-parse-tiinyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AEE92D1A2E5EEC00DBC10B /* Build configuration list for PBXNativeTarget "dojo-parse-tiinyTests" */;
+			buildPhases = (
+				F0AEE91C1A2E5EEC00DBC10B /* Sources */,
+				F0AEE91D1A2E5EEC00DBC10B /* Frameworks */,
+				F0AEE91E1A2E5EEC00DBC10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AEE9221A2E5EEC00DBC10B /* PBXTargetDependency */,
+			);
+			name = "dojo-parse-tiinyTests";
+			productName = "dojo-parse-tiinyTests";
+			productReference = F0AEE9201A2E5EEC00DBC10B /* dojo-parse-tiinyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0AEE9031A2E5EEC00DBC10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David McGraw";
+				TargetAttributes = {
+					F0AEE90A1A2E5EEC00DBC10B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = TS6V23BE8W;
+					};
+					F0AEE91F1A2E5EEC00DBC10B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F0AEE90A1A2E5EEC00DBC10B;
+					};
+				};
+			};
+			buildConfigurationList = F0AEE9061A2E5EEC00DBC10B /* Build configuration list for PBXProject "dojo-parse-tiiny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0AEE9021A2E5EEC00DBC10B;
+			productRefGroup = F0AEE90C1A2E5EEC00DBC10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0AEE90A1A2E5EEC00DBC10B /* dojo-parse-tiiny */,
+				F0AEE91F1A2E5EEC00DBC10B /* dojo-parse-tiinyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0AEE9091A2E5EEC00DBC10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AEE9311A2E5F4E00DBC10B /* LaunchScreen_rank_3.xib in Resources */,
+				F0AEE9161A2E5EEC00DBC10B /* Main.storyboard in Resources */,
+				F0AEE9181A2E5EEC00DBC10B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AEE91E1A2E5EEC00DBC10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0AEE9071A2E5EEC00DBC10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AEE9351A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift in Sources */,
+				F0AEE9331A2E5F6C00DBC10B /* XMCCamera.swift in Sources */,
+				F0AEE9371A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift in Sources */,
+				F0AEE9131A2E5EEC00DBC10B /* XMCTiinyViewController.swift in Sources */,
+				F0AEE9111A2E5EEC00DBC10B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AEE91C1A2E5EEC00DBC10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AEE9271A2E5EEC00DBC10B /* dojo_parse_tiinyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0AEE9221A2E5EEC00DBC10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AEE90A1A2E5EEC00DBC10B /* dojo-parse-tiiny */;
+			targetProxy = F0AEE9211A2E5EEC00DBC10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0AEE9141A2E5EEC00DBC10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AEE9151A2E5EEC00DBC10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0AEE9281A2E5EEC00DBC10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0AEE9291A2E5EEC00DBC10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0AEE92B1A2E5EEC00DBC10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-parse-tiiny/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0AEE92C1A2E5EEC00DBC10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-parse-tiiny/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0AEE92E1A2E5EEC00DBC10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dojo-parse-tiinyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-parse-tiiny.app/dojo-parse-tiiny";
+			};
+			name = Debug;
+		};
+		F0AEE92F1A2E5EEC00DBC10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dojo-parse-tiinyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-parse-tiiny.app/dojo-parse-tiiny";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0AEE9061A2E5EEC00DBC10B /* Build configuration list for PBXProject "dojo-parse-tiiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AEE9281A2E5EEC00DBC10B /* Debug */,
+				F0AEE9291A2E5EEC00DBC10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AEE92A1A2E5EEC00DBC10B /* Build configuration list for PBXNativeTarget "dojo-parse-tiiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AEE92B1A2E5EEC00DBC10B /* Debug */,
+				F0AEE92C1A2E5EEC00DBC10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0AEE92D1A2E5EEC00DBC10B /* Build configuration list for PBXNativeTarget "dojo-parse-tiinyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AEE92E1A2E5EEC00DBC10B /* Debug */,
+				F0AEE92F1A2E5EEC00DBC10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0AEE9031A2E5EEC00DBC10B /* Project object */;
+}
