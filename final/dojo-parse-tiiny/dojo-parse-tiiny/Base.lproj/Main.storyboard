@@ -18,7 +18,8 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Vzb-Pf-4Ml">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="z8Q-z4-6b0">
+                                <gestureRecognizers/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="6" minimumInteritemSpacing="2" id="z8Q-z4-6b0">
                                     <size key="itemSize" width="100" height="100"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -78,6 +79,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="350-At-NEt"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="hcj-a9-bV6"/>
+                                    <outletCollection property="gestureRecognizers" destination="O71-jD-b8w" appends="YES" id="QnV-Ox-g4p"/>
                                 </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVm-Em-3F6">
@@ -111,6 +113,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="O71-jD-b8w">
+                    <connections>
+                        <action selector="doubleTappedCollection:" destination="vXZ-lx-hvc" id="a4b-aR-ciI"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="243" y="471"/>
         </scene>

@@ -25,7 +25,9 @@ class XMCCameraCollectionViewCell: UICollectionViewCell, XMCCameraDelegate {
         
         // We don't need a full resolution image
         self.camera?.session.sessionPreset = AVCaptureSessionPreset352x288
-        
+    }
+    
+    func initializePreviewLayer() {
         // Establish our preview layer
         self.preview = AVCaptureVideoPreviewLayer(session: self.camera?.session)
         self.preview?.videoGravity = AVLayerVideoGravityResizeAspectFill
@@ -51,6 +53,7 @@ class XMCCameraCollectionViewCell: UICollectionViewCell, XMCCameraDelegate {
     
     func cameraSessionDidBegin() {
         // perform any work that needs to be completed when the camera starts
+        self.initializePreviewLayer()
     }
     
     func cameraSessionDidStop() {

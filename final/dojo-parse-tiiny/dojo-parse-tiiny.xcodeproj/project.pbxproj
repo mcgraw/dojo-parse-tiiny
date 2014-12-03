@@ -16,6 +16,18 @@
 		F0AEE9331A2E5F6C00DBC10B /* XMCCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9321A2E5F6C00DBC10B /* XMCCamera.swift */; };
 		F0AEE9351A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9341A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift */; };
 		F0AEE9371A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEE9361A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift */; };
+		F0AEE9501A2E7E1C00DBC10B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE94F1A2E7E1C00DBC10B /* Parse.framework */; };
+		F0AEE9521A2E7E2700DBC10B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE9511A2E7E2700DBC10B /* Bolts.framework */; };
+		F0AEE9531A2E7E3300DBC10B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE94C1A2E7E0500DBC10B /* SystemConfiguration.framework */; };
+		F0AEE9541A2E7E3300DBC10B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE94A1A2E7DFD00DBC10B /* StoreKit.framework */; };
+		F0AEE9551A2E7E3300DBC10B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE9481A2E7DF500DBC10B /* Security.framework */; };
+		F0AEE9561A2E7E3300DBC10B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE9461A2E7DED00DBC10B /* QuartzCore.framework */; };
+		F0AEE9571A2E7E3300DBC10B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE9441A2E7DE200DBC10B /* MobileCoreServices.framework */; };
+		F0AEE9581A2E7E3300DBC10B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE9421A2E7DDC00DBC10B /* libz.dylib */; };
+		F0AEE9591A2E7E3300DBC10B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE9401A2E7DD500DBC10B /* CoreLocation.framework */; };
+		F0AEE95A1A2E7E3300DBC10B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE93E1A2E7DCF00DBC10B /* CoreGraphics.framework */; };
+		F0AEE95B1A2E7E3300DBC10B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE93C1A2E7DC600DBC10B /* CFNetwork.framework */; };
+		F0AEE95C1A2E7E3300DBC10B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AEE93A1A2E7DBE00DBC10B /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +54,19 @@
 		F0AEE9321A2E5F6C00DBC10B /* XMCCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCCamera.swift; sourceTree = "<group>"; };
 		F0AEE9341A2E61BB00DBC10B /* XMCCameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCCameraCollectionViewCell.swift; sourceTree = "<group>"; };
 		F0AEE9361A2E61C800DBC10B /* XMCPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0AEE93A1A2E7DBE00DBC10B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F0AEE93C1A2E7DC600DBC10B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F0AEE93E1A2E7DCF00DBC10B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0AEE9401A2E7DD500DBC10B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F0AEE9421A2E7DDC00DBC10B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F0AEE9441A2E7DE200DBC10B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F0AEE9461A2E7DED00DBC10B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0AEE9481A2E7DF500DBC10B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F0AEE94A1A2E7DFD00DBC10B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F0AEE94C1A2E7E0500DBC10B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0AEE94F1A2E7E1C00DBC10B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F0AEE9511A2E7E2700DBC10B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F0AEE9631A2E811800DBC10B /* dojo-parse-tiiny-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dojo-parse-tiiny-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AEE9521A2E7E2700DBC10B /* Bolts.framework in Frameworks */,
+				F0AEE9531A2E7E3300DBC10B /* SystemConfiguration.framework in Frameworks */,
+				F0AEE9541A2E7E3300DBC10B /* StoreKit.framework in Frameworks */,
+				F0AEE9551A2E7E3300DBC10B /* Security.framework in Frameworks */,
+				F0AEE9561A2E7E3300DBC10B /* QuartzCore.framework in Frameworks */,
+				F0AEE9571A2E7E3300DBC10B /* MobileCoreServices.framework in Frameworks */,
+				F0AEE9581A2E7E3300DBC10B /* libz.dylib in Frameworks */,
+				F0AEE9591A2E7E3300DBC10B /* CoreLocation.framework in Frameworks */,
+				F0AEE95A1A2E7E3300DBC10B /* CoreGraphics.framework in Frameworks */,
+				F0AEE95B1A2E7E3300DBC10B /* CFNetwork.framework in Frameworks */,
+				F0AEE95C1A2E7E3300DBC10B /* AudioToolbox.framework in Frameworks */,
+				F0AEE9501A2E7E1C00DBC10B /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F0AEE90D1A2E5EEC00DBC10B /* dojo-parse-tiiny */,
+				F0AEE94E1A2E7E0A00DBC10B /* Frameworks */,
 				F0AEE9231A2E5EEC00DBC10B /* dojo-parse-tiinyTests */,
 				F0AEE90C1A2E5EEC00DBC10B /* Products */,
 			);
@@ -92,6 +130,7 @@
 				F0AEE9171A2E5EEC00DBC10B /* Images.xcassets */,
 				F0AEE9301A2E5F4E00DBC10B /* LaunchScreen_rank_3.xib */,
 				F0AEE90E1A2E5EEC00DBC10B /* Supporting Files */,
+				F0AEE9631A2E811800DBC10B /* dojo-parse-tiiny-Bridging-Header.h */,
 			);
 			path = "dojo-parse-tiiny";
 			sourceTree = "<group>";
@@ -119,6 +158,25 @@
 				F0AEE9251A2E5EEC00DBC10B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0AEE94E1A2E7E0A00DBC10B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEE9511A2E7E2700DBC10B /* Bolts.framework */,
+				F0AEE94F1A2E7E1C00DBC10B /* Parse.framework */,
+				F0AEE94C1A2E7E0500DBC10B /* SystemConfiguration.framework */,
+				F0AEE94A1A2E7DFD00DBC10B /* StoreKit.framework */,
+				F0AEE9481A2E7DF500DBC10B /* Security.framework */,
+				F0AEE9461A2E7DED00DBC10B /* QuartzCore.framework */,
+				F0AEE9441A2E7DE200DBC10B /* MobileCoreServices.framework */,
+				F0AEE9421A2E7DDC00DBC10B /* libz.dylib */,
+				F0AEE9401A2E7DD500DBC10B /* CoreLocation.framework */,
+				F0AEE93E1A2E7DCF00DBC10B /* CoreGraphics.framework */,
+				F0AEE93C1A2E7DC600DBC10B /* CFNetwork.framework */,
+				F0AEE93A1A2E7DBE00DBC10B /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,9 +399,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dojo-parse-tiiny",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "dojo-parse-tiiny/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dojo-parse-tiiny/dojo-parse-tiiny-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -351,9 +417,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dojo-parse-tiiny",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "dojo-parse-tiiny/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dojo-parse-tiiny/dojo-parse-tiiny-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -410,6 +483,7 @@
 				F0AEE92C1A2E5EEC00DBC10B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0AEE92D1A2E5EEC00DBC10B /* Build configuration list for PBXNativeTarget "dojo-parse-tiinyTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +492,7 @@
 				F0AEE92F1A2E5EEC00DBC10B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
