@@ -102,7 +102,7 @@ class XMCTiinyViewController: UIViewController, UICollectionViewDelegate, UIColl
                     }
                 })
                 
-                /*  NOTE: in the even that the code above fails, you want to revert
+                /*  NOTE: in the event that the code above fails, you want to revert
                     our photo addition and then alert the user. 
                 
                     OR, create an upload manager that will retry the upload attempt.
